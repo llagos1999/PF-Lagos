@@ -1,0 +1,32 @@
+#nosotros1{
+    background-color: $blanco;
+    width: 100%;
+    img{
+        height: auto;
+        vertical-align: top;
+        border: none;
+    }
+    .grilla{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.texto-parrafo{ 
+    h1{
+    font-size: 100px;
+    font-weight: 400;
+    text-align: left;
+    padding: 50px 40px 30px 50px; 
+    }
+    h2{
+        font-size: 60px;
+        font-weight: 400;
+        text-align: left;
+        padding: 20px 50px 50px 50px;
+    }
+    p{
+        padding: 20px 50px 50px 50px;
+        font-size: 40px;
+        text-align: left;
+    }
+}
