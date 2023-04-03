@@ -1,15 +1,4 @@
 /*VARIABLES*/
-.logo {
-  margin-left: 10px;
-  color: #c0bfbf;
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  z-index: 100;
-}
-
 nav {
   background-color: rgba(10, 10, 10, 0.7);
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
@@ -26,6 +15,14 @@ nav {
   line-height: 80px;
   z-index: 100;
   background-color: rgba(10, 10, 10, 0.7);
+}
+.nav-container .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: #c0bfbf;
+  text-transform: uppercase;
+  z-index: 100;
 }
 
 .links .link-nav {
@@ -388,6 +385,7 @@ nav {
   font-weight: 400;
   text-align: left;
   padding: 50px 40px 30px 50px;
+  font-weight: 600;
 }
 .texto-parrafo h2 {
   font-size: 60px;
@@ -680,6 +678,17 @@ nav {
     padding-top: 120px;
     padding-left: 100px;
     padding-right: 100px;
+  }
+  #nosotros1 .grilla {
+    display: flex;
+  }
+  #nosotros1 .grilla .img-nosotros {
+    display: none;
+  }
+  #nosotros1 .grilla .texto-parrafo h1 {
+    text-align: center;
+    font-size: 90px;
+    font-weight: 600;
   }
 }
 @media screen and (max-width: 535px) {

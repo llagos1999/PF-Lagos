@@ -208,4 +208,20 @@
         padding-left: 100px;
         padding-right: 100px;
     }
+    #nosotros1{
+        .grilla{
+            display: flex;
+            .img-nosotros{
+                display: none;
+            }
+            .texto-parrafo{
+                h1{
+                    text-align: center;
+                    font-size: 90px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+    }
 }
